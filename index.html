@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.19/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.19/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.19/dist/js/uikit-icons.min.js"></script>
+    <title>Uikit test</title>
+</head>
+<body>
+    <header class="header">
+        <div class="uk-container">
+            <div class="header__wrapper uk-flex uk-flex-between uk-flex-middle">
+                <a href="#" class="header__logo">LOGO</a>
+                <div class="header__menu uk-flex uk-flex-between">Меню 1</div>
+                <div uk-dropdown>
+                    <ul class="header__item uk-nav uk-dropdown-nav">
+                        <li><a href="#">Первое <span class="uk-text-danger">new</span></a></li>
+                        <li><a href="#">Второе <span class="uk-text-danger">new</span></a></li>
+                        <li><a href="#">Третье</a></li>
+                        <li><a href="#">Четвёртое</a></li>
+                        <li><a href="#">Пятое</a></li>
+                    </ul>
+                </div>
+                <div class="header__menu uk-flex uk-flex-between">Меню 2</div>
+                <div uk-dropdown>
+                    <ul class="header__item uk-nav uk-dropdown-nav">
+                        <li><a href="#">Первое <span class="uk-text-danger">new</span></a></li>
+                        <li><a href="#">Второе <span class="uk-text-danger">new</span></a></li>
+                        <li><a href="#">Третье</a></li>
+                        <li><a href="#">Четвёртое</a></li>
+                        <li><a href="#">Пятое</a></li>
+                    </ul>
+                </div>
+                <div class="header__menu uk-flex uk-flex-between">Меню 3</div>
+                <div uk-dropdown>
+                    <ul class="header__item uk-nav uk-dropdown-nav">
+                        <li><a href="#">Первое <span class="uk-text-danger">new</span></a></li>
+                        <li><a href="#">Второе <span class="uk-text-danger">new</span></a></li>
+                        <li><a href="#">Третье</a></li>
+                        <li><a href="#">Четвёртое</a></li>
+                        <li><a href="#">Пятое</a></li>
+                    </ul>
+                </div>
+                <div class="header__wrap uk-flex uk-flex-between uk-flex-middle">
+                    <span uk-icon="user"></span>
+                    <p class="header__name">Иванов</p>
+                    <div uk-dropdown>
+                        <ul class="header__item uk-nav uk-dropdown-nav">
+                            <li><a href="#">Первое</a></li>
+                            <li><a href="#">Второе</a></li>
+                            <li><a href="#">Третье</a></li>
+                            <li><a href="#">Четвёртое</a></li>
+                            <li><a href="#">Выйти</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        <div class=" uk-container-xsmall uk-margin-auto container">
+            <h1 class="main__title uk-text-bold uk-text-large">Заголовок</h1>
+            <p class="header__text">Описание Описание Описание Описание Описание Описание
+                Описание Описание Описание
+            </p>
+            <form action="#" class="main__form">
+                <div class="main__wrap uk-flex uk-margin-bottom	">
+                    <p class="main__name uk-margin-medium-right">Введите имя</p>
+                    <input type="text" name="text" class="main__input uk-input">
+                </div>
+                <div class="main__wrap uk-flex uk-margin-bottom	">
+                    <p class="main__name uk-margin-medium-right">Введите фамилию</p>
+                    <input type="text" name="text" class="main__input uk-input">
+                </div>
+                <div class="main__wrap uk-flex uk-margin-bottom	">
+                    <p class="main__name uk-margin-medium-right">Выберите из списка</p>
+                    <select class="main__select uk-select">
+                        <option selected value="Первая опция">Первая опция</option>
+                        <option value="Вторая опция">Вторая опция</option>
+                        <option value="Третья опция">Третья опция</option>
+                        <option value="Четвёртая опция">Четвёртая опция</option>
+                    </select>
+                </div>
+                <div class="main__wrap uk-flex uk-flex-middle uk-margin-bottom">
+                    <p class="main__name uk-margin-medium-right">Поставьте галочку</p>
+                    <input type="checkbox" name="checkbox" class="main__input uk-checkbox">
+                </div>
+                <div class="main__wrap uk-flex uk-flex-wrap uk-flex-between uk-margin-bottom">
+                    <button class="main__btn uk-button uk-button-default uk-background-primary">Нажмите</button>
+                    <button class="main__btn uk-button uk-button-default uk-background-primary">Нажмите</button>
+                </div>
+                <button class="main__btn uk-button uk-button-default uk-background-primary">Нажмите</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
